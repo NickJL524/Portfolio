@@ -1,5 +1,9 @@
 //imports
 import React from "react";
+import Game from "./assets/game.png"
+import Geo from "./assets/geo.png"
+import Remock from "./assets/remock.png"
+import Tic from "./assets/tic-tac.png"
 
 //Projects page
 export default function Projects() {
@@ -7,7 +11,7 @@ export default function Projects() {
     <>
       <div id="pics">
         <div id="remock">
-          <img src="/assets/remock.png" alt="" />
+          <img src={Remock} alt="" />
 
           <a href="https://github.com/BurlingtonCodeAcademy/remock-NickJL524">
             <h5 className="center">Webpage layout and design with photos</h5>
@@ -15,7 +19,7 @@ export default function Projects() {
         </div>
 
         <div id="game">
-          <img src="/assets/game.png" alt="" />
+          <img src={Game} alt="" />
 
           <a href="https://github.com/BurlingtonCodeAcademy/ECHO-Capstone">
             <h5 className="center">
@@ -25,7 +29,7 @@ export default function Projects() {
         </div>
 
         <div id="tic">
-          <img src="/assets/tic-tac.png" alt="" />
+          <img src={Tic} alt="" />
 
           <a href="https://github.com/BurlingtonCodeAcademy/tic-tac-toe-nick-dalton">
             <h5 className="center">Play Tic-Tac-Toe</h5>
@@ -33,7 +37,7 @@ export default function Projects() {
         </div>
 
         <div id="geo">
-          <img src="/assets/geo.png" alt="" />
+          <img src={Geo} alt="" />
 
           <a href="https://github.com/BurlingtonCodeAcademy/geo-vermonter-nick-william">
             <h5 className="center">A GeoGuesser game based in Vermont</h5>

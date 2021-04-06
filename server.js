@@ -6,7 +6,7 @@ const app = express();
 const port = process.env.PORT || 5000;
 
 //routing to my public folder
-app.use(express.static("./public"));
+app.use(express.static("./public/build"));
 
 
 app.get("*", (request, response) => {

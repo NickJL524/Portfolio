@@ -1,5 +1,6 @@
 //imports
 import React from "react";
+import Golf from "./assets/golf.JPG"
 
 //About page
 export default function About() {
@@ -7,7 +8,7 @@ export default function About() {
     <>
     <div id="main-container">
       <div id="about">
-        <img src="/assets/golf.jpg" alt="" />
+        <img src={Golf} alt="" />
         <h1>Full Stack Web Developer</h1>
       </div>
      
