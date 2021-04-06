@@ -1,9 +1,9 @@
 //imports
 import React from "react";
-import Game from "./assets/game.png"
-import Geo from "./assets/geo.png"
-import Remock from "./assets/remock.png"
-import Tic from "./assets/tic-tac.png"
+import Game from "./assets/game.png";
+import Geo from "./assets/geo.png";
+import Remock from "./assets/remock.png";
+import Tic from "./assets/tic-tac.png";
 
 //Projects page
 export default function Projects() {
@@ -23,7 +23,8 @@ export default function Projects() {
 
           <a href="https://github.com/BurlingtonCodeAcademy/ECHO-Capstone">
             <h5 className="center">
-              Bernoulli Blower game designed for the Echo, Leahy Center for Lake Champlain based on their exhibit
+              Bernoulli Blower game designed for the Echo, Leahy Center for Lake
+              Champlain based on their exhibit
             </h5>
           </a>
         </div>
